@@ -11,7 +11,7 @@ class GotoBrowser < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/felix-hatr/goto-browser/releases/download/v1.0.0/goto-browser_1.0.0_darwin_amd64.tar.gz"
-    sha256 "87bfcf0edd49bf39e0d33bc5b637e492093cfb47322a12468504b95c03c93fc6"
+    sha256 "8d90822844ea2f0137ee287d021fe40fdd5f89012e291b1fb857530dcee7e850"
 
     define_method(:install) do
       bin.install "zebro"
@@ -22,7 +22,7 @@ class GotoBrowser < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/felix-hatr/goto-browser/releases/download/v1.0.0/goto-browser_1.0.0_darwin_arm64.tar.gz"
-    sha256 "2f54542139b4637e0c2098e4502db220fb845963fc0cf80d292c70f65f12e927"
+    sha256 "0683b202d8f0e04da5b106d23904b76cfff065630c24afa2eaa1cdcf220711c9"
 
     define_method(:install) do
       bin.install "zebro"
