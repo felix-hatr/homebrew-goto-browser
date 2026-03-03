@@ -5,13 +5,13 @@
 class GotoBrowser < Formula
   desc "URL shortcut manager — open browser links from your terminal"
   homepage "https://github.com/felix-hatr/goto-browser"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/felix-hatr/goto-browser/releases/download/v1.1.1/goto-browser_1.1.1_darwin_amd64.tar.gz"
-    sha256 "e0e30d9ac69271fa6197364e7c6c76fcfc717100a2a59b1a56f4db397a19930e"
+    url "https://github.com/felix-hatr/goto-browser/releases/download/v1.2.0/goto-browser_1.2.0_darwin_amd64.tar.gz"
+    sha256 "202db6bdafc5c3b64eafe7577f71b6fa3996ca702297e7fc398c5265d6b12d80"
 
     define_method(:install) do
       bin.install "zebro"
@@ -21,8 +21,8 @@ class GotoBrowser < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/felix-hatr/goto-browser/releases/download/v1.1.1/goto-browser_1.1.1_darwin_arm64.tar.gz"
-    sha256 "3611ff379c31a099e6129958fff69f561c6daeb58a1b494a78f4134afc7c7f53"
+    url "https://github.com/felix-hatr/goto-browser/releases/download/v1.2.0/goto-browser_1.2.0_darwin_arm64.tar.gz"
+    sha256 "a2ff7e8286aa0cbb09e96a29f18eed3229ee2e892f6d6b4243092120ad4eea4a"
 
     define_method(:install) do
       bin.install "zebro"
